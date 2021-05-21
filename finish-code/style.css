@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212121;
+}
+
+header {
+  text-align: center;
+}
+header h1 {
+  color: #ffdf2b;
+  font-size: 3rem;
+}
+header h2 {
+  color: #d6d6d6;
+  font-size: 2rem;
+}
+
+.action {
+  border: 1px solid #d6d6d6;
+  padding: 20px;
+  border-radius: 4px;
+}
+.action button {
+  padding: 1.3rem 2.5rem;
+  border: none;
+  background-color: #5e17eb;
+  color: white;
+  font-size: 1.3rem;
+  margin: 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.action button:hover {
+  background-color: #2e0288;
+}
